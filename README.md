@@ -173,13 +173,13 @@
         }
         /* Capa 1: Anatomía Base (T1 Simple - Oscuro) */
         .layer-anatomy {
-            background-image: url('https://www.researchgate.net/publication/382934155/figure/fig1/AS:11431281272576084@1724156501766/Cranial-navigation-with-brainlab-cranial-navigation-10-The-primary-panel-A-displays.tif');
+            background-image: url('https://i.postimg.cc/63GBVrBW/Cranial-navigation-with-brainlab-cranial-navigation-10-The-primary-panel-A-displays.png');
             filter: grayscale(100%) contrast(1.1) brightness(0.6);
             z-index: 1;
         }
         /* Capa 2: Patología Revelada (T1 Contraste - Color) */
         .layer-pathology {
-            background-image: url('https://www.researchgate.net/publication/382934155/figure/fig1/AS:11431281272576084@1724156501766/Cranial-navigation-with-brainlab-cranial-navigation-10-The-primary-panel-A-displays.tif');
+            background-image: url('https://i.postimg.cc/63GBVrBW/Cranial-navigation-with-brainlab-cranial-navigation-10-The-primary-panel-A-displays.png');
             filter: contrast(1.4) brightness(1.3) hue-rotate(15deg); 
             z-index: 2;
             /* La máscara se controla vía JS con clip-path: polygon */
